@@ -2,7 +2,7 @@
   .banner_content
     %h1 NoteSpace
     %p Your online notebook.
-    %button= link_to "Sign Up", new_user_registration_path
+    %button= link_to "Sign Up", new_user_session_path
 #testimonial
   .wrapper
     %p.quote "NoteSpace, so hot right now, NoteSpace!"
@@ -25,7 +25,7 @@
   .wrapper
     %h2 Create Your Own NoteSpace!
     %p Sign up
-    %button= link_to "Click Me!", new_user_registration_path
+    %button= link_to "Click Me!", new_user_session_path
 
 %footer
-  %p Brandon Andrew LoGuercio
+  #{ link_to 'BRANDON ANDREW LOGUERCIO', 'mailto:brandonloguercio@yahoo.com'}

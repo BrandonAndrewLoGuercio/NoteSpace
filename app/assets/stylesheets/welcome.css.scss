@@ -14,7 +14,7 @@
     vertical-align: middle;
     text-align: center;
     h1 {
-      @include bold_font;
+      //@include bold_font;
       color: white;
       font-size: 3.5rem;
       margin: 0;
@@ -85,4 +85,14 @@
     margin: 0 0 2.5rem 0;
     color: #a7a8a8;
   }
+}
+.header_inner a {
+  color: #ffffff;
+  font-weight: 500;
+}
+.header_inner a:hover {
+  color: #FF4500;
+}
+footer a:hover{
+  color: azure;
 }
